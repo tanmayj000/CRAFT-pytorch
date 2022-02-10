@@ -6,6 +6,7 @@ MIT License
 # -*- coding: utf-8 -*-
 import numpy as np
 from skimage import io
+from skimage.transform import resize
 import cv2
 
 def loadImage(img_file):
